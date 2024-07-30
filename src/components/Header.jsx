@@ -33,6 +33,7 @@ const [shownav,setshownav]=useState(false)
 
 const showp=(name)=>{
   show==name?setshow(""):setshow(name)
+  setshownav(false)
 
 }
 
@@ -44,7 +45,7 @@ const showp=(name)=>{
   </div>
   <nav className='  lg:flex  w-full  items-center gap-16'>
     <div className=' flex gap-9 w-full flex-col lg:flex-row '>
-      {Links.map((info,index)=><Navbar info={info} key={index} show={show} showp={showp} />)}
+      {Links.map((info,index)=><Navbar info={info} key={index} show={show} showp={showp}  />)}
     </div>
 
 <div className='flex gap-7 items-center w-full mt-4 lg:mt-0'>
