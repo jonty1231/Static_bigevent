@@ -4,7 +4,7 @@ const Blogsection = () => {
 const [data,setdata]=useState([{img:"blog1.jpg"},{img:"blog2.jpg"},{img:"blog3.jpg"}])
     
   return (<>
-    <div  className='lg:p-[8rem] '>
+    <div  className='p-1 lg:p-[8rem] '>
         <div className='flex flex-col justify-center items-center gap-4 my-16'>
               <b className='text-5xl font-bold text-center'>LATEST UPDATES <span className='text-[#F7437C]'>BLOG</span> </b>
               <img src="/shape.png" alt="" />

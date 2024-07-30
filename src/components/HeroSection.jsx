@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <div className=" herosection ">
       <div className="w-full md:w-4/6 lg:w-1/2 md:ps-[1.5rem] lg:ps-[4.2rem] flex flex-col gap-3 pt-[10rem] pb-[6rem] items-center md:items-start ">
-        <b className="text-white text-4xl md:text-6xl ">
+        <b className="text-white  ps-2 text-4xl md:text-6xl ">
           UI.UX DESIGN BOOTCAMP FORUM VORSION 2.0
         </b>
         <p className="text-white">
