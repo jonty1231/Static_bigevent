@@ -38,7 +38,7 @@ const showp=(name)=>{
 }
 
   return (
-  <><div className={` fixed w-full  flex flex-col ${shownav?"h-full":"h-[4.7rem]"} p-4  w-screen  lg:flex-row     gap-3 overflow-hidden lg:overflow-visible items-center  ${scorl > 20?" bg-[#060d42]":"backdrop-blur-md"} shadow-lg text-white lg:px-[8rem] z-50 `}>
+  <><div className={` fixed w-full  flex flex-col ${shownav?"h-full":"h-[4.6rem]"} p-4  w-screen  lg:flex-row     gap-3 overflow-hidden lg:overflow-visible items-center  ${scorl > 20?" bg-[#060d42]":"backdrop-blur-md"} shadow-lg text-white lg:px-[8rem] z-50 `}>
     <div className='flex lg:justify-start justify-between  w-full'>
   <b className='text-4xl googlefont'>BIGEVENT  </b>
   <i className="fa-solid fa-bars lg:hidden text-2xl text-white" onClick={()=>setshownav(!shownav)}></i>
