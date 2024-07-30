@@ -4,7 +4,7 @@ const Aboutspeaker = ({classevn,bgcolor,miccolor}) => {
 const [data,setdata]=useState([{img:"/speaker_01.jpg",name:"ROBOT SMITH"},{img:"/speaker_02.jpg",name:"JANATON SMITH"},{img:"/speaker_03.jpg",name:"WILLIAM JOHN"},{img:"/speaker_04.jpg",name:"RAISEN AERO"},{img:"/speaker_05.jpg",name:"RAISEN AERO"},{img:"/speaker_06.jpg",name:"ROBOT SMITH"},{img:"/speaker_01.jpg",name:"ROBOT SMITH"},{img:"/speaker_02.jpg",name:"JANATON SMITH"}])
 
   return (
-    <div className={` ${classevn} py-20 lg:px-[8rem]`}>
+    <div className={` p-2 ${classevn} py-20 lg:px-[8rem]`}>
 <div className='text-white text-center my-5 py-5'>
     <b className='text-4xl font-bold my-3'>OUR SPEAKERS</b>
     <p>Quickly harness dynamic thinking through value added models.</p>

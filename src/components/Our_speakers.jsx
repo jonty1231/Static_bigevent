@@ -15,8 +15,8 @@ const [data,setdata]=useState([{img:"/speaker_09.jpg",name:"robot smith",pro:"Fo
      </div>
 <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 '>
 {data.map((info)=><div data-aos="fade-in" className='group rounded-md overflow-hidden items-center'>
- <img src={info.img} alt=""  className='w-full'/>
- <div className='bg-white text-black text-center py-3 group-hover:text-[#FF9822]'>
+ <img src={info.img} alt=""  className='w-full '/>
+ <div className='bg-white text-black text-center py-1 md:py-3 group-hover:text-[#FF9822]'>
  <b className='text-2xl font-bold uppercase '>{info.name}</b>
  <p>{info.pro}</p>
  </div>
