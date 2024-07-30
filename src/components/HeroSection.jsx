@@ -7,7 +7,7 @@ const HeroSection = () => {
         <b className="text-white  ps-4 md:ps-0 text-4xl md:text-6xl ">
           UI.UX DESIGN BOOTCAMP FORUM VORSION 2.0
         </b>
-        <p className="text-white py-4 md:py-0 text-wrap">
+        <p className="text-white px-4 md:py-0 text-wrap">
        
           Join Newsletter Annual World UI.UX Design Bootcamp Forum v2.0
         </p>
