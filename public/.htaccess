@@ -1,8 +1,34 @@
-<IfModule mod_expires.c>
-  ExpiresActive On
-  ExpiresDefault "access plus 1 month"
-  ExpiresByType image/jpeg "access plus 1 year"
-  ExpiresByType image/png "access plus 1 year"
-  ExpiresByType application/javascript "access plus 1 month"
-  ExpiresByType text/css "access plus 1 month"
-</IfModule>
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Redirect Trailing Slashes...
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+# Redirect Requests to Front Controller...
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
+
+# Set MIME type for WebAssembly files
+AddType application/wasm .wasm
+
+# Set cache control for static assets
+<FilesMatch "\.(jpg|jpeg|png|gif|js|css|woff|woff2|ttf|eot|ico)$">
+    Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+# Enable GZIP compression for text files
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/x-component
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/atom+xml
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE font/opentype
+AddOutputFilterByType DEFLATE image/svg+xml
