@@ -8,8 +8,8 @@ const [data,setdata]=useState([{png:"/03.png",anim:"/03a.png",text:"Networking"}
 
   return ( 
   <>
-  <div className='grid grid-cols-1 gap-3  py-4 md:grid-cols-2  my-10 lg:px-[8rem]'>
-<div className='flex flex-col gap-5'>
+  <div className='grid grid-cols-1 gap-3 md:grid-cols-2  my-10 lg:px-[8rem]'>
+<div className='flex flex-col gap-5  py-4  text-wrap'>
 <b className='text-4xl font-bold'>Why Join <span className='text-[#F7437C]'>Bigevent?</span><br />
 Why You Should Join Event</b>
 <img src="/shape.png" alt=""  className='w-2/6'/>
