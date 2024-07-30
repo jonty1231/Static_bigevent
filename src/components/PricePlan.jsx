@@ -2,8 +2,8 @@ import React from 'react'
 
 const PricePlan = () => {
   return (
-    <div className=' md:px-3 py-10 lg:px-[8rem]'>
-  <div className='flex flex-col  justify-center items-center gap-6'>
+    <div className='  md:px-3 py-10 lg:px-[8rem]'>
+  <div className='flex flex-col p-4  justify-center items-center gap-6'>
     <b className='text-center text-5xl'>OUR PRICING <span className='text-[#F7437C]'>PLAN</span></b>
     <img src="/shape.png" alt="" />
     <p className='lg:w-4/6  text-center'>Bigevent Is Working Worldwide From 30+ Years Ago For Business Developmentny And Enterpreniorship They Havesi Something Awesome Services And Products Fors Events Development WordPress Theme.</p>
