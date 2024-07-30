@@ -10,7 +10,7 @@ const [data,setdata]=useState([{img:"/01img.jpg",name:"BRUCE P. DICKSON",pro:"Ch
 ])
 
   return (
-    <div className='lg:p-[8rem] my-24'>
+    <div className='lg:p-[8rem] '>
 <div className='flex flex-col text-center items-center justify-center gap-4'>
 <b className=' text-4xl text-[#121A51]'>MEET OUR EVENT <span className='text-[#F7437C]'>SPEAKERS</span></b>
 <img src="/shape.png" alt="" />

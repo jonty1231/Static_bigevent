@@ -2,7 +2,7 @@ import React from 'react'
 
 const PricePlan = () => {
   return (
-    <div className=' md:px-3 lg:p-[8rem]'>
+    <div className=' md:px-3 py-10 lg:px-[8rem]'>
   <div className='flex flex-col  justify-center items-center gap-6'>
     <b className='text-center text-5xl'>OUR PRICING <span className='text-[#F7437C]'>PLAN</span></b>
     <img src="/shape.png" alt="" />

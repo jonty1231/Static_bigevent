@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Herocomponent = () => {
+const Herocomponent = ({page,details}) => {
   return (
     <div className='herocompo  pt-[15rem] lg:pt-[23rem] '>
         <div className='grid lg:grid-flow-col gap-[10rem] lg:gap-0 text-white'>
@@ -28,9 +28,9 @@ const Herocomponent = () => {
          </div>
          <div className='mt-[10rem] px-5 lg:px-32 '>
                <div className='bg-white text-center md:flex  justify-between p-5 font-bold'>
-                    <p className='text-2xl'>ABOUT THE BIGEVENT</p>
+                    <p className='text-2xl'>{details}</p>
 
-                  <div className='flex justify-center gap-4 text-xl'><Link to="/"><i className="fa-solid fa-house"></i>Home</Link> <div className='h-full w-[3px] bg-black'></div><p className='text-[#925816]'>About</p> </div>
+                  <div className='flex justify-center gap-4 text-xl'><Link to="/"><i className="fa-solid fa-house"></i>Home</Link> <div className='h-full w-[3px] bg-black'></div><p className='text-[#925816]'>{page}</p> </div>
                </div>
          </div>
     </div>

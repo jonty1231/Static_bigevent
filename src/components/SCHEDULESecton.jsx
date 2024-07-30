@@ -22,7 +22,7 @@ const handelData3=(indexnum)=>{
   val3==indexnum?setvall3(""):setvall3(indexnum)
 }
   return (
-    <div className='lg:p-[8rem]'>
+    <div className='lg:px-[8rem]'>
 <div className='flex flex-col justify-center items-center gap-3'>
     <b className='text-5xl font-bold text-center'>OUR EVENT <span className='text-[#F7437C] '>SCHEDULES</span></b>
     <img src="/shape.png" alt="" />

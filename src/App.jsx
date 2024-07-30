@@ -4,6 +4,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Header from './components/Header'
 import Homepage from './page/Homepage'
 import About from './page/About'
+import Speaker from './page/Speaker'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
  <Routes>
    <Route  path='/' element={<Homepage />} />
   <Route path='/about' element={<About />} />
+  <Route  path='/speakers' element={ <Speaker />}/>
 
  </Routes>
 
