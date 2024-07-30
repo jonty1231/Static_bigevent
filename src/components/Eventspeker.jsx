@@ -58,10 +58,10 @@ const {img,name,pro}=info
 
 <div>
     <div className='flex gap-8'>
-    <i className="fa-solid fa-square-phone text-[#F7437C] border-[1px] p-2"></i> <span className='border-[1px] p-2'> +880 1234 567 890</span>
+    <i className="fa-solid fa-square-phone text-[#F7437C]  p-2"></i> <span className=' p-2'> +880 1234 567 890</span>
     </div>
     <div className='flex gap-8'>
-    <i className="fa-solid fa-envelope text-[#F7437C] border-[1px] p-2"></i><span className='border-[1px] p-2'>williamkhanna@gmail.com</span>
+    <i className="fa-solid fa-envelope text-[#F7437C] p-2"></i><span className='p-2'>williamkhanna@gmail.com</span>
     </div>
     </div>
 </div>
