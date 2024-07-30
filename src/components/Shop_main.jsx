@@ -51,7 +51,7 @@ const List =({info})=>{
     const { avatar,email,first_name,last_name,id }=info
 return(
     <div className='   shadow-lg shadow-[black] my-5 text-center bg-black text-white rounded-md overflow-hidden hover:scale-105 duration-300 cursor-grab'>
-   <img src={avatar} alt=""  className='w-full h-[64%] ' />
+   <img src={avatar} alt=""  className='w-full  ' />
        <p className='my-3'>{email}</p> 
        <p className='mb-3'>{first_name} .... {last_name}</p>
     </div>
